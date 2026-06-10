@@ -76,12 +76,12 @@ transition:0.3s;}
     }
 
     .hero h1{
-        font-size:58px;
-        line-height:0.95;
-    }
+    font-size:46px;
+    line-height:0.95;
+}
 
     .hero-subtitle{
-        font-size:28px;
+    font-size:24px;
         line-height:1.25;
         margin-bottom:34px;
     }
