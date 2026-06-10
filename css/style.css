@@ -60,3 +60,34 @@ transition:0.3s;}
 .hero-subtitle {
     color:#c8a06b;
 }
+@media (max-width: 768px) {
+
+    .hero{
+        align-items:flex-start;
+        padding-left:8%;
+        padding-right:8%;
+        padding-top:90px;
+        background-position:center;
+    }
+
+    .hero-content{
+        max-width:100%;
+        margin-top:0;
+    }
+
+    .hero h1{
+        font-size:58px;
+        line-height:0.95;
+    }
+
+    .hero-subtitle{
+        font-size:28px;
+        line-height:1.25;
+        margin-bottom:34px;
+    }
+
+    .hero-button{
+        padding:16px 24px;
+        font-size:13px;
+    }
+}
