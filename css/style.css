@@ -54,3 +54,9 @@ transition:0.3s;}
     background:#c8a06b;
     color:#050505;
 }
+.hero-content,
+.hero-kicker,
+.hero h1,
+.hero-subtitle {
+    color:#c8a06b;
+}
