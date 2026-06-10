@@ -19,8 +19,8 @@ body{
 }
 
 .hero-content{
-    max-width:600px;
-    color:#c8a06b;
+    max-width:700px;
+    margin-top:80px;
 }
 
 .hero-kicker{
@@ -30,8 +30,9 @@ body{
 }
 
 .hero h1{
-    font-size:72px;
-    margin:20px 0;
+    font-size:90px;
+    margin:10px 0;
+    line-height:0.95;
 }
 
 .hero-subtitle{
