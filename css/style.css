@@ -1,142 +1,184 @@
 body{
-    margin:0;
-    padding:0;
-    font-family:Georgia, serif;
-    background:#050505;
+margin:0;
+padding:0;
+font-family:Georgia, serif;
+background:#050505;
 }
 
+/* =========================
+BLOQUE 01 : HERO
+========================= */
+
 .hero{
-    min-height:100vh;
-    background-image:url('../images/owlclub-hero-01.png');
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    display:flex;
-    align-items:center;
-    padding:0 8%;
+min-height:100vh;
+background-image:url(’../images/owlclub-hero-01.png’);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+display:flex;
+align-items:center;
+padding:0 8%;
 }
 
 .hero-content{
-    max-width:700px;
-    color:#c8a06b;
+max-width:700px;
+color:#c8a06b;
 }
 
 .hero-kicker{
-    letter-spacing:4px;
-    text-transform:uppercase;
-    font-size:14px;
-    margin-bottom:18px;
+letter-spacing:4px;
+text-transform:uppercase;
+font-size:14px;
+margin-bottom:18px;
 }
 
 .hero h1{
-    font-size:84px;
-    line-height:0.95;
-    margin:0 0 26px 0;
-    color:#c8a06b;
-    text-shadow:0 0 20px rgba(0,0,0,0.75);
+font-size:84px;
+line-height:0.95;
+margin:0 0 26px 0;
+color:#c8a06b;
+text-shadow:0 0 20px rgba(0,0,0,0.75);
 }
 
 .hero-subtitle{
-    font-size:28px;
-    line-height:1.35;
-    margin:0 0 38px 0;
-    color:#c8a06b;
-    text-shadow:0 0 16px rgba(0,0,0,0.75);
+font-size:28px;
+line-height:1.35;
+margin:0 0 38px 0;
+color:#c8a06b;
+text-shadow:0 0 16px rgba(0,0,0,0.75);
 }
 
 .hero-button{
-    display:inline-block;
-    border:1px solid #c8a06b;
-    color:#c8a06b;
-    text-decoration:none;
-    padding:16px 32px;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    transition:0.3s;
+display:inline-block;
+border:1px solid #c8a06b;
+color:#c8a06b;
+text-decoration:none;
+padding:16px 32px;
+letter-spacing:2px;
+text-transform:uppercase;
+transition:0.3s;
 }
 
 .hero-button:hover{
-    background:#c8a06b;
-    color:#050505;
+background:#c8a06b;
+color:#050505;
 }
 
 /* =========================
-   MÓVIL / TABLET
+DIVIDER 01
+========================= */
+
+.divider-01{
+min-height:220px;
+background-image:url(’../images/owlclub-divider-01.png’);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* =========================
+BLOQUE 02 : PATHWAY
+========================= */
+
+.pathway{
+min-height:100vh;
+background-image:url(’../images/owlclub-pathway-desktop-02.png’);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* =========================
+DIVIDER 02
+========================= */
+
+.divider-02{
+min-height:220px;
+background-image:url(’../images/owlclub-divider-02.png’);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* =========================
+BLOQUE 03 : TRUST
+========================= */
+
+.trust{
+min-height:100vh;
+background-image:url(’../images/owlclub-trust-mobile-03.png’);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* =========================
+DIVIDER 03
+========================= */
+
+.divider-03{
+min-height:220px;
+background-image:url(’../images/owlclub-divider-03.png’);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* =========================
+BLOQUE 04 : SERVICES
+========================= */
+
+.services{
+min-height:100vh;
+background-image:url(’../images/owlclub-services-mobile-04.png’);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* =========================
+MÓVIL / TABLET
 ========================= */
 
 @media (max-width:768px){
 
-    .hero{
-        min-height:100vh;
-        background-image:url('../images/owlclub-hero-mobile-01.png');
-        background-size:cover;
-        background-position:center top;
-        background-repeat:no-repeat;
-
-        display:flex;
-        align-items:flex-start;
-
-        padding:0 7%;
-        text-align:left;
-    }
-
-    .hero-content{
-        max-width:100%;
-        padding-top:120px;
-        color:#c8a06b;
-    }
-
-    .hero-kicker{
-        font-size:12px;
-        letter-spacing:5px;
-        margin-bottom:22px;
-    }
-
-  .hero h1{
-    font-size:58px;
-        line-height:0.92;
-        margin:0 0 28px 0;
-    }
-
-    .hero-subtitle{
-        font-size:22px;
-        line-height:1.2;
-        max-width:260px;
-        margin:0 0 42px 0;
-    }
-
-    .hero-button{
-        font-size:13px;
-        padding:16px 26px;
-    }
+.hero{
+    min-height:100vh;
+    background-image:url('../images/owlclub-hero-mobile-01.png');
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:flex-start;
+    padding:0 7%;
+    text-align:left;
 }
-/* =========================
-   BLOQUE 02: WHY THE OWL CLUB EXISTS
-========================= */
-
-.owl-divider{
-    background:#050505;
-    color:#c8a06b;
-    text-align:center;
-    font-size:28px;
-    letter-spacing:12px;
-    padding:50px 0;
+.hero-content{
+    max-width:100%;
+    padding-top:120px;
+}
+.hero-kicker{
+    font-size:12px;
+    letter-spacing:5px;
+    margin-bottom:22px;
+}
+.hero h1{
+    font-size:58px;
+    line-height:0.92;
+    margin:0 0 28px 0;
+}
+.hero-subtitle{
+    font-size:22px;
+    line-height:1.2;
+    max-width:260px;
+    margin:0 0 42px 0;
+}
+.hero-button{
+    font-size:13px;
+    padding:16px 26px;
 }
 .pathway{
-    min-height:100vh;
-    background-image:url('../images/owlclub-pathway-desktop-02.png');
-    background-size:cover;
-    background-position:center center;
-    background-repeat:no-repeat;
+    background-image:url('../images/owlclub-pathway-mobile-02.png');
 }
-
-@media (max-width:768px){
-
-    .pathway{
-        background-image:url('../images/owlclub-pathway-mobile-02.png');
-        background-size:cover;
-        background-position:center center;
-        background-repeat:no-repeat;
-    }
 
 }
