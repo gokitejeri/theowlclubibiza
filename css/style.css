@@ -72,39 +72,41 @@ body{
         background-size:cover;
         background-position:center top;
         background-repeat:no-repeat;
+
         display:flex;
-        align-items:center;
-        justify-content:center;
+        align-items:flex-start;
+
         padding:0 7%;
-        text-align:center;
+        text-align:left;
     }
 
     .hero-content{
         max-width:100%;
-        padding-top:0;
+        padding-top:120px;
         color:#c8a06b;
     }
 
     .hero-kicker{
         font-size:12px;
         letter-spacing:5px;
-        margin-bottom:18px;
+        margin-bottom:22px;
     }
 
     .hero h1{
-        font-size:48px;
-        line-height:0.95;
-        margin:0 0 24px 0;
+        font-size:64px;
+        line-height:0.92;
+        margin:0 0 28px 0;
     }
 
     .hero-subtitle{
-        font-size:24px;
-        line-height:1.25;
-        margin:0 0 32px 0;
+        font-size:22px;
+        line-height:1.2;
+        max-width:320px;
+        margin:0 0 42px 0;
     }
 
     .hero-button{
         font-size:13px;
-        padding:15px 22px;
+        padding:16px 26px;
     }
 }
