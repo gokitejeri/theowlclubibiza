@@ -117,8 +117,7 @@ body{
 .pathway{
     min-height:100vh;
     background-image:url('../images/owlclub-pathway-desktop-02.png');
-    background-size:cover;
-    background-position:center;
+ background-size:100% auto;    background-position:center;
     background-repeat:no-repeat;
 }
 
