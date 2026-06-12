@@ -113,6 +113,15 @@ body{
 /* =========================
    BLOQUE 02: WHY THE OWL CLUB EXISTS
 ========================= */
+
+.owl-divider{
+    background:#050505;
+    color:#c8a06b;
+    text-align:center;
+    font-size:28px;
+    letter-spacing:12px;
+    padding:50px 0;
+}
 .pathway{
     min-height:100vh;
     background-image:url('../images/owlclub-pathway-desktop-02.png');
