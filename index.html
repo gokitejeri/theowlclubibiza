@@ -1,44 +1,169 @@
-<!-- =========================
-         BLOQUE 01 : HERO
-    ========================== -->
-<section class="hero">
-    <div class="hero-content">
-        <p class="hero-kicker">Private Access</p>
-        <h1>The Owl Club Ibiza</h1>
-        <p class="hero-subtitle">
-            Ibiza is better when you know the right people.
-        </p>
-        <a class="hero-button"
-           href="https://wa.me/34616843816"
-           target="_blank">
-            Request Assistance
-        </a>
-    </div>
-</section>
-<!-- =========================
-     DIVIDER 01
-     owlclub-divider-01.png
-========================== -->
-<section class="divider-01"></section>
-<!-- =========================
-     BLOQUE 02 : PATHWAY
-========================== -->
-<section class="pathway"></section>
-<!-- =========================
-     DIVIDER 02
-     owlclub-divider-02.png
-========================== -->
-<section class="divider-02"></section>
-<!-- =========================
-     BLOQUE 03 : TRUST
-========================== -->
-<section class="trust"></section>
-<!-- =========================
-     DIVIDER 03
-     owlclub-divider-03.png
-========================== -->
-<section class="divider-03"></section>
-<!-- =========================
-     BLOQUE 04 : SERVICES
-========================== -->
-<section class="services"></section>
+body{
+    margin:0;
+    padding:0;
+    font-family:Georgia, serif;
+    background:#050505;
+}
+
+/* BLOQUE 01 : HERO */
+
+.hero{
+    min-height:100vh;
+    background-image:url('../images/owlclub-hero-01.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    padding:0 8%;
+}
+
+.hero-content{
+    max-width:700px;
+    color:#c8a06b;
+}
+
+.hero-kicker{
+    letter-spacing:4px;
+    text-transform:uppercase;
+    font-size:14px;
+    margin-bottom:18px;
+}
+
+.hero h1{
+    font-size:84px;
+    line-height:0.95;
+    margin:0 0 26px 0;
+    color:#c8a06b;
+    text-shadow:0 0 20px rgba(0,0,0,0.75);
+}
+
+.hero-subtitle{
+    font-size:28px;
+    line-height:1.35;
+    margin:0 0 38px 0;
+    color:#c8a06b;
+    text-shadow:0 0 16px rgba(0,0,0,0.75);
+}
+
+.hero-button{
+    display:inline-block;
+    border:1px solid #c8a06b;
+    color:#c8a06b;
+    text-decoration:none;
+    padding:16px 32px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    transition:0.3s;
+}
+
+.hero-button:hover{
+    background:#c8a06b;
+    color:#050505;
+}
+
+/* DIVIDER 01 */
+
+.divider-01{
+    min-height:220px;
+    background-image:url('../images/owlclub-divider-01.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* BLOQUE 02 : PATHWAY */
+
+.pathway{
+    min-height:100vh;
+    background-image:url('../images/owlclub-pathway-desktop-02.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* DIVIDER 02 */
+
+.divider-02{
+    min-height:220px;
+    background-image:url('../images/owlclub-divider-02.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* BLOQUE 03 : TRUST */
+
+.trust{
+    min-height:100vh;
+    background-image:url('../images/owlclub-trust-mobile-03.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* DIVIDER 03 */
+
+.divider-03{
+    min-height:220px;
+    background-image:url('../images/owlclub-divider-03.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* BLOQUE 04 : SERVICES */
+
+.services{
+    min-height:100vh;
+    background-image:url('../images/owlclub-services-mobile-04.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* MÓVIL / TABLET */
+
+@media (max-width:768px){
+
+    .hero{
+        background-image:url('../images/owlclub-hero-mobile-01.png');
+        align-items:flex-start;
+        padding:0 7%;
+        text-align:left;
+        background-position:center top;
+    }
+
+    .hero-content{
+        max-width:100%;
+        padding-top:120px;
+    }
+
+    .hero-kicker{
+        font-size:12px;
+        letter-spacing:5px;
+        margin-bottom:22px;
+    }
+
+    .hero h1{
+        font-size:58px;
+        line-height:0.92;
+        margin:0 0 28px 0;
+    }
+
+    .hero-subtitle{
+        font-size:22px;
+        line-height:1.2;
+        max-width:260px;
+        margin:0 0 42px 0;
+    }
+
+    .hero-button{
+        font-size:13px;
+        padding:16px 26px;
+    }
+
+    .pathway{
+        background-image:url('../images/owlclub-pathway-mobile-02.png');
+    }
+}
