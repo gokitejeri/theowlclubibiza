@@ -61,21 +61,28 @@ body{
 }
 
 /* =========================
-   MÓVIL VERTICAL
+   MÓVIL / TABLET
 ========================= */
 
 @media (max-width:768px){
 
     .hero{
         min-height:100vh;
-        padding:0 7%;
-        align-items:flex-start;
+        background-image:url('../images/owlclub-hero-mobile-01.png');
+        background-size:cover;
         background-position:center top;
+        background-repeat:no-repeat;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:0 7%;
+        text-align:center;
     }
 
     .hero-content{
         max-width:100%;
-        padding-top:120px;
+        padding-top:0;
+        color:#c8a06b;
     }
 
     .hero-kicker{
@@ -85,15 +92,15 @@ body{
     }
 
     .hero h1{
-        font-size:52px;
+        font-size:48px;
         line-height:0.95;
-        margin-bottom:28px;
+        margin:0 0 24px 0;
     }
 
     .hero-subtitle{
-        font-size:25px;
+        font-size:24px;
         line-height:1.25;
-        margin-bottom:32px;
+        margin:0 0 32px 0;
     }
 
     .hero-button{
