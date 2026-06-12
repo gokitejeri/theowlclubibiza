@@ -113,18 +113,21 @@ body{
 /* =========================
    BLOQUE 02: WHY THE OWL CLUB EXISTS
 ========================= */
-
 .pathway{
     min-height:100vh;
     background-image:url('../images/owlclub-pathway-desktop-02.png');
- background-size:100% auto;    background-position:center;
+    background-size:cover;
+    background-position:center center;
     background-repeat:no-repeat;
 }
 
 @media (max-width:768px){
 
-.pathway{
-    background-image:url('../images/owlclub-pathway-mobile-02.png');
-}
+    .pathway{
+        background-image:url('../images/owlclub-pathway-mobile-02.png');
+        background-size:cover;
+        background-position:center center;
+        background-repeat:no-repeat;
+    }
 
 }
